@@ -1,0 +1,21 @@
+{
+  "name": "feedants-backend",
+  "version": "1.0.0",
+  "description": "Feedants Competition Details Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "test:concurrency": "node src/tests/concurrencyTest.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^9.1.8"
+  }
+}
